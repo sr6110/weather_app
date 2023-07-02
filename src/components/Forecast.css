@@ -1,0 +1,18 @@
+.forecast {
+    margin-top: 20px;
+}
+
+.forecast h2 {
+    text-align: center;
+}
+
+.forecast p {
+    margin-bottom: 10px;
+}
+
+.forecast-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}

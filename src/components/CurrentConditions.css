@@ -1,0 +1,8 @@
+  
+  .current-conditions h2 {
+    text-align: center;
+  }
+
+  .current-conditions{
+    flex: 1;
+  }
