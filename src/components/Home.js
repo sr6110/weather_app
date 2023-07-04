@@ -12,7 +12,7 @@ function Home() {
 
   const updateLocation = async (city) => {
     if (city.length === 0) return;
-    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${process.env.REACT_APP_API_KEY}`;
+    const url = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${process.env.REACT_APP_API_KEY}`;
 
     try {
       const response = await fetch(url);
